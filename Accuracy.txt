@@ -1,0 +1,7 @@
+Customer Churn Prediction using deep Learning
+
+Algorithm / Model Used: ANN
+
+Train Accuracy: 0.87 and Test Accuracy: 0.86 
+
+

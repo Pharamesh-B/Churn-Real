@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Churn Prediction </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/animate.css">
+    
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../static/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="../static/css/aos.css">
+
+    <link rel="stylesheet" href="../static/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="../static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../static/css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="../static/css/flaticon.css">
+    <link rel="stylesheet" href="../static/css/icomoon.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
+  <body class="goto-here">
+		 
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Churn Prediction</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="{{url_for('first')}}" class="nav-link">Home</a></li>
+	          
+	          <li class="nav-item"><a href="{{url_for('login')}}" class="nav-link">Login</a></li>
+			  
+	           
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <div class="hero-wrap hero-bread" style="background-image: url('../static/images/Header_bg.jpg');">
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html"></a></span> <span></span></p>
+            <h1 class="mb-0 bread">Login</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-sectio">
+      <div class="container" style="display: flex;">
+        <div class="row-image">
+          <img src="../static/images/login_image_1.jpg" alt="No Image available" style="height: 80vh;">
+        </div>
+        <!-- <div class="row justify-content-center"> -->
+          <div class="col-xl-7 ftco-animat">
+						 
+							<!-- <center><h3 class="mb-4 billing-heading">Login</h3></center> -->
+							
+							
+							 <head>
+
+        
+         
+	 <style>
+
+
+body  {
+background-image: url("../static/images/email3.jpg");
+ 
+}
+ 
+ 
+    </style>
+		 <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+        function login(){
+        var uname = document.getElementById("uname").value;
+        var pwd = document.getElementById("pwd").value;
+
+	if(uname == "admin" && pwd == "admin")
+	{
+	  alert("Login Success!");
+	  
+	  window.location = "{{url_for('upload')}}";
+	  return false;
+	}
+	else
+	{
+	alert("Invalid Credentials!")
+	}
+        }
+		
+		  
+
+
+ 
+    </script>
+	
+</head>
+
+ <body id="page-top">
+
+   
+ 
+
+  <!-- Portfolio Section -->
+  <!-- <section class="page-section portfolio" id="portfolio"> -->
+  <!-- ... other code ... -->
+  
+
+  <div class="row_1" style="display: flex; justify-content: center; padding-top: 170px;">
+    <div class="col-md-6 col-lg-" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); background-color: white; border-radius: 5px; padding: 16px; width: 300px; text-align: center;">
+      <div class="control-grou" style="margin-bottom: 15px;">
+        <label class="control-label" for="username" style="display: block; margin-bottom: 5px;"><b>Username</b></label>
+        <div class="controls">
+          <input type="text" id="uname" name="uname" placeholder="" class="form-control" style="width: 100%; padding: 15px; margin-bottom: 15px; display: block; background: #f1f1f1;">
+        </div>
+      </div>
+      <div class="control-grou" style="margin-bottom: 15px;">
+        <label class="control-label" for="password" style="display: block; margin-bottom: 5px;"><b>Password</b></label>
+        <div class="controls">
+          <input type="password" id="pwd" name="pwd" placeholder="" class="form-control" style="width: 100%; padding: 15px; margin-bottom: 15px; display: block; background: #f1f1f1;">
+        </div>
+      </div>
+      <div class="control-grou">
+        <div class="controls">
+          <input type="button" class="btn btn-success" value="Login" style="background-color: #407BFF; color: white; padding: 14px 20px; margin-top: 15px; border: none; cursor: pointer; width: 100%;" onclick="login()">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+
+  
+
+    </body>
+        </div>
+	           
+	          	</div>
+	          </div>
+          </div> <!-- .col-md-8 -->
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+		<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+      <div class="container py-4">
+        <div class="row d-flex justify-content-center py-5">
+          <div class="col-md-6">
+ 
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+      	<div class="row">
+      		<div class="mouse">
+						<a href="#" class="mouse-icon">
+							<div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+						</a>
+					</div>
+      	</div>
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+             
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+             <div class="ftco-footer-widget mb-4">
+               
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	 
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+           
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="../static/js/jquery.min.js"></script>
+  <script src="../static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../static/js/popper.min.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/jquery.easing.1.3.js"></script>
+  <script src="../static/js/jquery.waypoints.min.js"></script>
+  <script src="../static/js/jquery.stellar.min.js"></script>
+  <script src="../static/js/owl.carousel.min.js"></script>
+  <script src="../static/js/jquery.magnific-popup.min.js"></script>
+  <script src="../static/js/aos.js"></script>
+  <script src="../static/js/jquery.animateNumber.min.js"></script>
+  <script src="../static/js/bootstrap-datepicker.js"></script>
+  <script src="../static/js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="../static/js/google-map.js"></script>
+  <script src="../static/js/main.js"></script>
+
+  <script>
+		$(document).ready(function(){
+
+		var quantitiy=0;
+		   $('.quantity-right-plus').click(function(e){
+		        
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+		            
+		            $('#quantity').val(quantity + 1);
+
+		          
+		            // Increment
+		        
+		    });
+
+		     $('.quantity-left-minus').click(function(e){
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+		      
+		            // Increment
+		            if(quantity>0){
+		            $('#quantity').val(quantity - 1);
+		            }
+		    });
+		    
+		});
+	</script>
+    
+  </body>
+</html>

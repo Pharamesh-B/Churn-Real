@@ -1,0 +1,7 @@
+CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,Exited
+376,Germany,Female,29,4,115046,4,yes,no,119346,The customer will leave the bank
+497,Spain,Male,24,3,0,2,yes,no,76390,The customer won't leave the bank
+476,France,Female,34,10,0,2,yes,no,26260,The customer won't leave the bank
+655,Germany,Male,41,8,125561,1,no,no,164040,The customer will leave the bank
+601,Germany,Male,42,1,98495,1,yes,no,40014,The customer will leave the bank
+585,Germany,Male,36,5,146050,2,no,no,86424,The customer won't leave the bank

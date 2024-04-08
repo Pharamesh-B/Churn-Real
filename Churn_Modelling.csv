@@ -1,0 +1,7 @@
+CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,Exited
+376,Germany,Female,29,4,115046,4,yes,no,119346,1(customer churn)
+497,Spain,Male,24,3,0,2,yes,no,76390,0(no customer churn)
+476,France,Female,34,10,0,2,yes,no,26260,0
+655,Germany,Male,41,8,125561,1,no,no,164040,1
+601,Germany,Male,42,1,98495,1,yes,no,40014,1
+585,Germany,Male,36,5,146050,2,no,no,86424,0
